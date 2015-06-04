@@ -10,7 +10,7 @@ public class Starter {
 //			Sudoku();
 //		} else {
 		
-//	}
+//	    }
 		new Sudoku(2, 50).run();
 	}
 	
