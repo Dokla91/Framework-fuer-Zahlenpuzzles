@@ -8,7 +8,9 @@ public class Starter {
 		
 //		if (auswahl == Sudoku) {
 //			Sudoku();
-//		}
+//		} else {
+		
+//	}
 		new Sudoku(2, 50).run();
 	}
 	
