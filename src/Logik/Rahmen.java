@@ -7,16 +7,21 @@ public class Rahmen {
 	private int yMax;
 	private Feld[][] fields;
 	
-	public Rahmen() {}
+	public void setRahmen() {} 
 	
-	public Rahmen(int xMax, int yMax, Feld[][] fields){
+	public void setRahmen(int xMax, int yMax, Feld[][] fields){
 		
 		this.xMax = xMax;
 		this.yMax = yMax;
-		this.fields = fields;
-				
+		this.fields = fields;	
+		
 	}
-	
+		
+	/**
+	 * Setzt die Spielfeld Breite und Höhe.
+	 * @param x Breite
+	 * @param y Höhe
+	 */
 	public void setDimension(int x, int y){
 
 		try {
@@ -41,7 +46,7 @@ public class Rahmen {
 		
 	}
 	
-	public Feld[][] getFields() {
+	public Feld[][] getFields() {	// was macht das ??
 		return fields;
 	}
 	

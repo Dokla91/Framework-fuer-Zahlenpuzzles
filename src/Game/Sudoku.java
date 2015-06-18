@@ -35,7 +35,7 @@ public class Sudoku {
 			
 			for (int j = 0; j < yMax; j++) {
 				
-				JButton button = frame.createButton("x", 60, 60, i * 60, j * 60);
+				JButton button = frame.createButton("x", 55, 55, i * 60, j * 60);
 				button.addActionListener(new ButtonListener(button));
 				frame.add(button);
 			}		

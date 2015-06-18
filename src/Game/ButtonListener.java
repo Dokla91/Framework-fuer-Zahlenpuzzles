@@ -15,7 +15,7 @@ public class ButtonListener implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		this.button.setText("fuck");
+		this.button.setText("AAA");
 	}
 
 }
